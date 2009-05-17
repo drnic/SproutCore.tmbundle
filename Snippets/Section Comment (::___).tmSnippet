@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Section Comment (//...)</string>
 	<key>scope</key>
-	<string>source.js</string>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
 	<string>//..</string>
 	<key>uuid</key>

@@ -18,7 +18,7 @@ html_footer</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
-	<string>source.js, source.prototype.js</string>
+	<string>source.js</string>
 	<key>uuid</key>
 	<string>9A16B7C9-23DD-456B-AD54-8862CDFB064C</string>
 </dict>

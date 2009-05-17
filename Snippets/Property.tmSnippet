@@ -3,16 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${TM_SELECTED_TEXT}: function()
-{
+	<string>${1:TM_SELECTED_TEXT:${TM_CURRENT_WORD}}: function() {
 	$0
-}.property('${1:${TM_SELECTED_TEXT:${TM_CURRENT_WORD:property}}}'${2:,'${3:secondary}'})${10:,}</string>
+}.property('${2:${TM_SELECTED_TEXT:${TM_CURRENT_WORD:property}}}'${3:,'${4:secondary}'})${10:,}</string>
 	<key>keyEquivalent</key>
 	<string>~@P</string>
 	<key>name</key>
 	<string>Property</string>
 	<key>scope</key>
-	<string>source.js</string>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
 	<string>.prop</string>
 	<key>uuid</key>

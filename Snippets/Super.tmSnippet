@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>super</string>
 	<key>scope</key>
-	<string>source.js</string>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
 	<string>super</string>
 	<key>uuid</key>

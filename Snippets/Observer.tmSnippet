@@ -12,7 +12,7 @@
 	<key>name</key>
 	<string>Observer</string>
 	<key>scope</key>
-	<string>source.js</string>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
 	<string>.ob</string>
 	<key>uuid</key>

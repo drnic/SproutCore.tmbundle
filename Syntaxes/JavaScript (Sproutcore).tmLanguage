@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>keyEquivalent</key>
+	<string>^~J</string>
+	<key>name</key>
+	<string>JavaScript (Sproutcore)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.js</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#leading-space</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.js.sproutcore</string>
+	<key>uuid</key>
+	<string>A4C230FD-58C6-4450-AD7E-6241E75894AF</string>
+</dict>
+</plist>

@@ -15,7 +15,7 @@
 	<key>output</key>
 	<string>replaceSelectedText</string>
 	<key>scope</key>
-	<string>source.js, source.prototype.js</string>
+	<string>source.js</string>
 	<key>uuid</key>
 	<string>4AEBDBBC-337F-4A8D-BFA0-3EBFAEF37329</string>
 </dict>
