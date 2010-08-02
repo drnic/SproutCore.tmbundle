@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.WebView.design({
+	<string>SC.WebView.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   value: '${6:www.google.com}'
 })${7:,}</string>
 	<key>name</key>
-	<string>web</string>
+	<string>Web</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>web</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>83C07CEC-4E6A-42F6-AFE4-E5491BFCC162</string>
 </dict>

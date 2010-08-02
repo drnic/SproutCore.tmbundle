@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.RadioView.design({
+	<string>SC.RadioView.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   layoutDirection: ${7:SC.LAYOUT_VERTICAL},
   items: [${8:{ title: 'Welcome', value: 'welcome'\}, ...}],
@@ -11,9 +11,11 @@
   itemValueKey: '${10:value}'
 })${11:,}</string>
 	<key>name</key>
-	<string>radio</string>
+	<string>Redio</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>radio</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>D6CE798F-31B7-4079-AFCE-D86D58FCD008</string>
 </dict>

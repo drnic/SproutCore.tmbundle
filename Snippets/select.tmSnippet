@@ -3,16 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.SelectView.design({
+	<string>SC.SelectView.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   objects: [${8:{ title: 'Welcome', value: 'welcome'\}, ...}],
   nameKey: '${9:title}',
   valueKey: '${10:value}'
 })${11:,}</string>
 	<key>name</key>
-	<string>select</string>
+	<string>Select</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>select</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>EE6A3FBC-B196-4E80-A850-A182C595FBC5</string>
 </dict>

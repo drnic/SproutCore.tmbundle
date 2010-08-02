@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.ThumbView.design({
+	<string>SC.ThumbView.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   isEnabled: ${6:YES}
 })${7:,}</string>
 	<key>name</key>
-	<string>thumb</string>
+	<string>Thumb</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>thumb</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>AEAB793D-C19A-458B-BACC-593B9105D709</string>
 </dict>

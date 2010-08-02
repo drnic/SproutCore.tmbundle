@@ -3,16 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.ButtonView.design({
+	<string>SC.ButtonView.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   title: '${6:Button}',
   action: '${7:myMethod}',
   target: '${8:MyApp.Controller}'
 })${9:,}</string>
 	<key>name</key>
-	<string>button</string>
+	<string>Button</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>button</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>76E73FCE-AC42-4367-B303-2DC0F168400A</string>
 </dict>

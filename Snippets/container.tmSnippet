@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.ContainerView.design({
+	<string>SC.ContainerView.${1:design}({
   layout: { top:${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   nowShowing: '${6:viewName}'.w()
 })${7:,}</string>
 	<key>name</key>
-	<string>container</string>
+	<string>Container</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>container</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>20FB0999-0387-49F6-8001-0B45BDD80F5C</string>
 </dict>

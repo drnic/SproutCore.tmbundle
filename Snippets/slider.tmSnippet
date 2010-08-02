@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.SliderView.design({
+	<string>SC.SliderView.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   value: ${6:0.5},
   minimum: ${7:0},
@@ -11,9 +11,11 @@
   step: ${9:0.1}
 })${10:,}</string>
 	<key>name</key>
-	<string>slider</string>
+	<string>Slider</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>slider</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>BAB6CC3A-C49F-4BC2-B56C-6C2272A84491</string>
 </dict>

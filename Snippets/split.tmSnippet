@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.SplitView.design({
+	<string>SC.SplitView.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   defaultThickness: ${6:0.25},
   layoutDirection: ${7:SC.LAYOUT_VERTICAL},
@@ -15,9 +15,11 @@
   bottomRightView: ${9:SC.View...}
 })${10:,}</string>
 	<key>name</key>
-	<string>split</string>
+	<string>Split</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>split</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>34DA212D-4091-45FF-9769-5C613A0A1065</string>
 </dict>

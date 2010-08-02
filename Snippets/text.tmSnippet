@@ -3,16 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.TextFieldView.design({
+	<string>SC.TextFieldView.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   hint: '${6:Search...}',
   isPassword: ${7:YES},
   isTextArea: ${8:NO}
 })${9:,}</string>
 	<key>name</key>
-	<string>text</string>
+	<string>TextField</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>text</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>469969AE-DDE8-468B-BDDE-C13BA7B8DD4B</string>
 </dict>

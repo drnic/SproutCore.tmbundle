@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.ImageView.design({
+	<string>SC.ImageView.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   value: '${6:Class name or URL}'${7:,}
 })${8:,}</string>
 	<key>name</key>
-	<string>image</string>
+	<string>Image</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>image</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>FD11D69B-E63C-4E9C-A6FA-6BA97D25A56C</string>
 </dict>

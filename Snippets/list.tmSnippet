@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.ListView.design({
+	<string>SC.ListView.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   contentBinding: '${6:MyApp.controller.arrangedObjects}',
   selectionBinding: '${7:MyApp.controller.selection}'
 })${8:,}</string>
 	<key>name</key>
-	<string>list</string>
+	<string>List</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>list</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>07892233-78D9-4A0F-A412-95C0248CDCB8</string>
 </dict>

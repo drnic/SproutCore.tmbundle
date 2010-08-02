@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.View.design({
+	<string>SC.View.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   childViews: '${6:viewName}'.w(),
 })${8:,}</string>
 	<key>name</key>
-	<string>view</string>
+	<string>View</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>view</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>5EEA2660-F8F0-48D6-828C-DC38FECB1ACC</string>
 </dict>

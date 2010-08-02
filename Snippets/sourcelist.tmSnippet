@@ -3,16 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.SourceListView.design({
+	<string>SC.SourceListView.${1:design}({
   layout: { top: ${2:0}, right: ${3:0}, bottom: ${4:0}, left: ${5:0} },
   contentBinding: '${6:MyApp.controller.arrangedObjects}',
   selectionBinding: '${7:MyApp.controller.selection}',
   contentValueKey: '${8:displayName}'
 })${9:,}</string>
 	<key>name</key>
-	<string>sourcelist</string>
+	<string>SourceList</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>sourcelist</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>CBABE2E2-553A-4465-8F15-48909E8D210D</string>
 </dict>

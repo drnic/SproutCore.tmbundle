@@ -5,9 +5,11 @@
 	<key>content</key>
 	<string>SC.Logger.dir(${1:Object});</string>
 	<key>name</key>
-	<string>dir</string>
+	<string>Logger.dir</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>dir</string>
+	<string>sc</string>
 	<key>uuid</key>
 	<string>BB09A235-A878-4817-B585-4D8DA4787181</string>
 </dict>
