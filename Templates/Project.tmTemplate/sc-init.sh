@@ -1,5 +1,5 @@
 #!/bin/bash
-defaultProjectName="ScProject.tmproj";
+defaultProjectName="Project.tmproj";
 fullProjectPath=$(CocoaDialog filesave \
 			--text "Please name your project and select a folder to save it into" \
 			--title "Create New Project" \
