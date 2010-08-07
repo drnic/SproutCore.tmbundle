@@ -24,11 +24,22 @@
 			<string>76DEFB6E-5EAF-402E-A08F-33E978D2CBBD</string>
 			<string>FC6460C6-5EF2-4929-906A-1DA330B56FCA</string>
 			<string>------------------------------------</string>
+			<string>31085228-D52A-4E9E-A7BF-7410035B47DD</string>
+			<string>------------------------------------</string>
 			<string>EE5C0C2D-54EB-4036-BBBB-923DB6B0A1CC</string>
 			<string>E6FE1AB2-92CB-4A0E-B6EC-55BEC68748CC</string>
 		</array>
 		<key>submenus</key>
 		<dict>
+			<key>31085228-D52A-4E9E-A7BF-7410035B47DD</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>BD18A760-C4C5-4B77-BAA9-CBF94CC920CC</string>
+				</array>
+				<key>name</key>
+				<string>Build Tools</string>
+			</dict>
 			<key>76DEFB6E-5EAF-402E-A08F-33E978D2CBBD</key>
 			<dict>
 				<key>items</key>
@@ -114,6 +125,9 @@
 		<string>E6FE1AB2-92CB-4A0E-B6EC-55BEC68748CC</string>
 		<string>BB09A235-A878-4817-B585-4D8DA4787181</string>
 		<string>7F577614-BE15-4A86-B4AD-02E547008623</string>
+		<string>A4C230FD-58C6-4450-AD7E-6241E75894AF</string>
+		<string>BA239A71-77E8-4FA1-B13C-091BCF2545C6</string>
+		<string>14FEED8F-79C2-4A35-B0FE-8953869CD2CC</string>
 	</array>
 	<key>uuid</key>
 	<string>B1009C4A-4B02-40F0-ABF2-85F3DD12A8C4</string>

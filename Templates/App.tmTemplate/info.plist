@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>"./sc-gen-app.sh"</string>
+	<key>extension</key>
+	<string></string>
+	<key>name</key>
+	<string>App</string>
+	<key>uuid</key>
+	<string>BA239A71-77E8-4FA1-B13C-091BCF2545C6</string>
+</dict>
+</plist>

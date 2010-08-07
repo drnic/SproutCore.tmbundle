@@ -1,0 +1,51 @@
+#!/usr/bin/osascript
+
+global SCWindowTitle
+
+on run argv
+	
+	set SCPath to item 1 of argv --"sc-server"
+	
+	set SCWindowTitle to "TextMate sc-server"
+	
+	set SCTab to my find_tab_by_title(SCWindowTitle)
+	
+	tell application "Terminal" to activate
+	
+	if SCTab is missing value then
+		tell application "Terminal"
+			set SCTab to do script SCPath
+			delay 1
+			set custom title of SCTab to SCWindowTitle	
+		end tell
+	end if
+	
+end run
+
+on find_tab_by_title(TheTabTitle)
+	
+	-- Find the window/tab that has this custom title.
+	
+	tell application "Terminal"
+		set MyWindowCount to count of windows
+		repeat with MyWindowIndex from 1 to MyWindowCount
+			set MyWindow to window MyWindowIndex
+			try
+				set MyTabCount to count of tabs of MyWindow
+			on error
+				set MyTabCount to 0 -- a non-Terminal window?
+			end try
+			repeat with MyTabIndex from 1 to MyTabCount
+				set MyTab to tab MyTabIndex of MyWindow
+				set MyTabTitle to custom title of MyTab
+				
+				if MyTabTitle is TheTabTitle then
+					return MyTab
+				end if
+				
+			end repeat
+		end repeat
+	end tell
+	
+	return missing value
+end find_tab_by_title

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>"./sc-init.sh"</string>
+	<key>name</key>
+	<string>Project</string>
+	<key>uuid</key>
+	<string>14FEED8F-79C2-4A35-B0FE-8953869CD2CC</string>
+</dict>
+</plist>
