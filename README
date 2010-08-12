@@ -1,1 +1,4 @@
-My take on sproutcore bundle
+Sproutcore Build Tools support
+- Added new command to launch Terminal and run the Development Server (trigger: ⇧⌘R)
+- Added new template to geneate Sproutcore project, using sc-init
+- Added new commands to generate Sproutcore stuffs like: app, framework, language, theme, model, view, controller using sc-gen (trigger: ⌥⇧⌘N)
