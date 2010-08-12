@@ -5,21 +5,18 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>if [ "$TM_DIRECTORY" == "" ]; then
-	echo "You are not inside a directory. Exit"
-	exit 206;
-fi
-
-sc_terminal "clear;cd '$TM_DIRECTORY';sc-server"</string>
+	<string>sc-gen.sh language "$TM_PROJECT_NAMESPACE"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>@R</string>
+	<string>~@N</string>
 	<key>name</key>
-	<string>Run Development Server</string>
+	<string>New Language</string>
 	<key>output</key>
-	<string>discard</string>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
 	<key>uuid</key>
-	<string>678AA4AC-D18C-4F10-A450-C1C4B2F7C54F</string>
+	<string>38C42B40-004A-44C3-A055-10D64957401D</string>
 </dict>
 </plist>

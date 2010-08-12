@@ -35,7 +35,16 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>BD18A760-C4C5-4B77-BAA9-CBF94CC920CC</string>
+					<string>E07DC6C9-7B94-40D9-90BD-F301DC9FA44D</string>
+					<string>EB90F26A-BD87-4BC1-99F1-EAAD0A856F3F</string>
+					<string>62CCE358-D3A5-4B1E-A37E-341B4B6D1052</string>
+					<string>------------------------------------</string>
+					<string>93E80AFD-13EA-429B-B584-7B755E7C52D7</string>
+					<string>02B844FC-3CB8-452B-9C10-26C4AF560133</string>
+					<string>CE62655B-FBB6-46F1-833C-25C27CFEB744</string>
+					<string>38C42B40-004A-44C3-A055-10D64957401D</string>
+					<string>------------------------------------</string>
+					<string>678AA4AC-D18C-4F10-A450-C1C4B2F7C54F</string>
 				</array>
 				<key>name</key>
 				<string>Build Tools</string>
@@ -127,6 +136,14 @@
 		<string>7F577614-BE15-4A86-B4AD-02E547008623</string>
 		<string>A4C230FD-58C6-4450-AD7E-6241E75894AF</string>
 		<string>14FEED8F-79C2-4A35-B0FE-8953869CD2CC</string>
+		<string>93E80AFD-13EA-429B-B584-7B755E7C52D7</string>
+		<string>02B844FC-3CB8-452B-9C10-26C4AF560133</string>
+		<string>CE62655B-FBB6-46F1-833C-25C27CFEB744</string>
+		<string>E07DC6C9-7B94-40D9-90BD-F301DC9FA44D</string>
+		<string>38C42B40-004A-44C3-A055-10D64957401D</string>
+		<string>EB90F26A-BD87-4BC1-99F1-EAAD0A856F3F</string>
+		<string>62CCE358-D3A5-4B1E-A37E-341B4B6D1052</string>
+		<string>678AA4AC-D18C-4F10-A450-C1C4B2F7C54F</string>
 	</array>
 	<key>uuid</key>
 	<string>B1009C4A-4B02-40F0-ABF2-85F3DD12A8C4</string>
