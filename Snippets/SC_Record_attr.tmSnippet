@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.Record.attr(${11:String}${12:, { defaultValue: ${13:'Unspecified'} }})</string>
+	<string>SC.Record.attr(${11:String}${12:, { defaultValue: ${13:'Unspecified'}${14:, isRequired: YES} }})</string>
 	<key>name</key>
 	<string>SC.Record.attr</string>
 	<key>scope</key>
