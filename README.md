@@ -10,6 +10,20 @@ SC.Record.extend({
 });
 ```
 
+### SC.Record.attr(...)
+
+There are several snippets to create attributes.
+
+`attr` creates a generic SC.Record.attr(...) as demonstrated above.
+
+`atts`, `attn` and `attd` create String, Number and SC.DateTime specific versions:
+
+``` javascript
+SC.Record.attr(String, { defaultValue: 'Unspecified', isRequired: YES }),
+SC.Record.attr(Number, { defaultValue: 0, isRequired: YES }),
+SC.Record.attr(SC.DateTime, { format: 'YY-mm-dd', isRequired: YES }),
+```
+
 ## Related bundles
 
 See also the following bundles:
