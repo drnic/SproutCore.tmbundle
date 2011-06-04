@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>.forEach(function(${1:item}) {
-	$1$0
+	<string>.filter(function(${1:item}, index, self) {
+  return $1$0;
 });</string>
 	<key>name</key>
-	<string>forEach(item)</string>
+	<string>filter</string>
 	<key>scope</key>
 	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>.fore</string>
+	<string>.fil</string>
 	<key>uuid</key>
-	<string>4541CE33-F7BA-4155-A9ED-5D0B30E9E508</string>
+	<string>FE9B2CB5-069B-4E1C-92F8-C8DB36FF009F</string>
 </dict>
 </plist>
