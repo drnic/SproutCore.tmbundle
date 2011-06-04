@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>SC.Record.toOne(
+	'${11:App.TargetClass}', 
+	{ isMaster: ${12:YES}, inverse: '${13:inverse}' }</string>
+	<key>name</key>
+	<string>SC.Record.toOne</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
+	<key>tabTrigger</key>
+	<string>one</string>
+	<key>uuid</key>
+	<string>3702DFA6-223A-481E-8F41-847E700899BA</string>
+</dict>
+</plist>

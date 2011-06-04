@@ -23,6 +23,7 @@
 			<string>invokeLater</string>
 			<string>observes</string>
 			<string>parentView</string>
+			<string>primaryKey</string>
 			<string>property</string>
 			<string>pushObject</string>
 			<string>set</string>
@@ -34,6 +35,7 @@
 			<string>String</string>
 			<string>SC.ArrayController</string>
 			<string>SC.Checkbox</string>
+			<string>SC.DateTime</string>
 			<string>SC.Object</string>
 			<string>SC.Record</string>
 			<string>SC.Store</string>
