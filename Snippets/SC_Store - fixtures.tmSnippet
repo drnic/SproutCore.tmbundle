@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>store: SC.Store.create().from(SC.Record.fixtures)</string>
+	<key>name</key>
+	<string>SC.Store - fixtures</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
+	<key>tabTrigger</key>
+	<string>store</string>
+	<key>uuid</key>
+	<string>9B9B3E77-BDCF-4E08-86E9-1B8EC875E4F4</string>
+</dict>
+</plist>
