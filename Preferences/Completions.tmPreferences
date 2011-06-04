@@ -11,6 +11,7 @@
 		<key>completions</key>
 		<array>
 			<string>beginPropertyChanges</string>
+			<string>cacheable</string>
 			<string>content</string>
 			<string>endPropertyChanges</string>
 			<string>everyProperty</string>
