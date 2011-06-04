@@ -41,6 +41,19 @@ non-master association:
 SC.Record.toOne('App.TargetClass', { isMaster: NO })  // one, TAB, N
 ```
 
+### Properties
+
+`prop` creates a property function for an `SC.Record`. The basic snippet provides:
+
+``` javascript
+propertyName: function() {
+  
+}.property('@each.propertyName', 'secondary').cacheable()
+```
+
+Various parts are quickly deletable (`@each`, `'secondary'`, `cacheable()`).
+
+
 ## SC.ArrayController
 
 `arrc` generates an `SC.ArrayController` instance:

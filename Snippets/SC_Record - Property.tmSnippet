@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:propertyName}: function() {
+	$0
+}.property('${2:@each.}${3:$1}'${4:, '${5:secondary}'})${7:.cacheable()}${10:,}
+</string>
+	<key>name</key>
+	<string>SC.Record - Property</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
+	<key>tabTrigger</key>
+	<string>prop</string>
+	<key>uuid</key>
+	<string>734E4158-B2E7-460F-AF89-82C6A9087828</string>
+</dict>
+</plist>
