@@ -18,7 +18,7 @@ property_name = ENV["TM_SELECTED_TEXT"] || ENV["TM_CURRENT_WORD"] or
 print &lt;&lt;END_SNIPPET
 #{e_sn property_name}: function() {
 	$0
-}.property('${2:@each.}#{e_sn property_name}'${3:,'${4:secondary}'})${10:,}
+}.property('${2:@each.}${3:#{e_sn property_name}}'${4:,'${5:secondary}'})${10:,}
 END_SNIPPET
 </string>
 	<key>fallbackInput</key>
