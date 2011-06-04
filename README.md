@@ -1,5 +1,13 @@
 # TextMate bundle for SproutCore
 
+## Theme
+
+Select the `JavaScript (SproutCore)` grammar and your code will look nice:
+
+<img src="https://img.skitch.com/20110604-pcrxbq1cb3pxtthpfwbga76sch.png">
+
+<caption>Sunbusrt theme</caption>
+
 ## Completions
 
 Lots and lots of common SproutCore functions and classes/types are added to the Completion list.
