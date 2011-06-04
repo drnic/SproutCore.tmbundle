@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>SC.Record.extend({
+  ${1:${2:field}: SC.Record.attr(${3:String})}$0
+});</string>
+	<key>name</key>
+	<string>SC.Record</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
+	<key>tabTrigger</key>
+	<string>rec</string>
+	<key>uuid</key>
+	<string>A429EC4C-48FB-4D6A-8E16-3D647F8E2524</string>
+</dict>
+</plist>

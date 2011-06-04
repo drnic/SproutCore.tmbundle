@@ -22,6 +22,7 @@
 			<string>invoke</string>
 			<string>invokeLater</string>
 			<string>observes</string>
+			<string>parentView</string>
 			<string>property</string>
 			<string>pushObject</string>
 			<string>set</string>
@@ -32,6 +33,7 @@
 			<string>SC.Checkbox</string>
 			<string>SC.Object</string>
 			<string>SC.Record</string>
+			<string>SC.Store</string>
 			<string>SC.TemplatePane</string>
 			<string>SC.TextField</string>
 		</array>
