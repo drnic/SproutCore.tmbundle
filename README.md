@@ -8,7 +8,7 @@ Select the `JavaScript (SproutCore)` grammar and your code will look nice:
 
 <img src="https://img.skitch.com/20110604-pcrxbq1cb3pxtthpfwbga76sch.png">
 
-<caption>Sunbusrt theme</caption>
+<caption>Sunburst theme</caption>
 
 ## Completions
 
