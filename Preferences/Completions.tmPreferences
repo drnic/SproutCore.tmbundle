@@ -29,6 +29,9 @@
 			<string>setEach</string>
 			<string>value</string>
 			<string>Binding</string>
+			<string>Boolean</string>
+			<string>Number</string>
+			<string>String</string>
 			<string>SC.ArrayController</string>
 			<string>SC.Checkbox</string>
 			<string>SC.Object</string>

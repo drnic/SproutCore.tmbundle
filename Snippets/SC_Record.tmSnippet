@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>SC.Record.extend({
-  ${1:${2:field}: SC.Record.attr(${3:String})}$0
+  ${1:${2:field}: SC.Record.attr(${11:String}${12:, { defaultValue: ${13:'Unspecified'} \}})}$0
 });</string>
 	<key>name</key>
 	<string>SC.Record</string>
