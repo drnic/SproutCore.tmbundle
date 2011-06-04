@@ -76,7 +76,17 @@ Various parts are quickly deletable (`@each`, `'secondary'`, `cacheable()`).
 .set('property', value);
 ```
 
+## Enumerables
 
+### forEach
+
+`fore` expands to the `forEach` helper iterating over an `item` object:
+
+``` javascript
+forEach(function(item) {
+  item
+});
+```
 
 ## SC.ArrayController
 
