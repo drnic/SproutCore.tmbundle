@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.Record.toOne('${11:App.TargetClass}', { isMaster: ${12:YES}${13:, inverse: '${14:inverse}'} })</string>
+	<string>SC.Record.toOne('${11:App.TargetClass}', { isMaster: ${12:Y}${12/(Y)|(N)|.*/(?1:ES, inverse\: 'inverse')(?2:O)/} })</string>
 	<key>name</key>
 	<string>SC.Record.toOne</string>
 	<key>scope</key>
