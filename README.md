@@ -122,10 +122,10 @@ To install via Git:
 
 		mkdir -p ~/Library/Application\ Support/TextMate/Bundles
 		cd ~/Library/Application\ Support/TextMate/Bundles
-		git clone git://github.com/drnic/sproutcore-tmbundle.git "SproutCore.tmbundle"
+		git clone git://github.com/drnic/SproutCore.tmbundle.git
 		osascript -e 'tell app "TextMate" to reload bundles'
 
-Source can be viewed or forked via GitHub: [http://github.com/drnic/sproutcore-tmbundle/tree/master](http://github.com/drnic/sproutcore-tmbundle/tree/master)
+Source can be viewed or forked via GitHub: [http://github.com/drnic/SproutCore.tmbundle](http://github.com/drnic/SproutCore.tmbundle)
 
 ## License
 
