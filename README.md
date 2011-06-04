@@ -19,9 +19,9 @@ There are several snippets to create attributes.
 `atts`, `attn` and `attd` create String, Number and SC.DateTime specific versions:
 
 ``` javascript
-SC.Record.attr(String, { defaultValue: 'Unspecified', isRequired: YES }),
-SC.Record.attr(Number, { defaultValue: 0, isRequired: YES }),
-SC.Record.attr(SC.DateTime, { format: 'YY-mm-dd', isRequired: YES }),
+SC.Record.attr(String, { defaultValue: 'Unspecified', isRequired: YES }), // atts
+SC.Record.attr(Number, { defaultValue: 0, isRequired: YES }),             // attn
+SC.Record.attr(SC.DateTime, { format: 'YY-mm-dd', isRequired: YES }),     // attd
 ```
 
 ## Related bundles
