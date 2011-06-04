@@ -9,20 +9,10 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>begin</key>
-			<string>(\bSC\.(?:Application|ArrayController|Checkbox|DateTime|Object|Record|Store|TemplateCollectionView|TemplatePane|TemplateView|TextField))</string>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>support.class.sproutcore</string>
-				</dict>
-			</dict>
-			<key>end</key>
-			<string>\b</string>
+			<key>match</key>
+			<string>\bSC\.(?:Application|ArrayController|Checkbox|DateTime|Object|Record|Store|TemplateCollectionView|TemplatePane|TemplateView|TextField)\b</string>
 			<key>name</key>
-			<string>meta.class.sproutcore</string>
+			<string>support.class.sproutcore</string>
 		</dict>
 		<dict>
 			<key>begin</key>
