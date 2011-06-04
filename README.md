@@ -24,6 +24,24 @@ SC.Record.attr(Number, { defaultValue: 0, isRequired: YES }),             // att
 SC.Record.attr(SC.DateTime, { format: 'YY-mm-dd', isRequired: YES }),     // attd
 ```
 
+### toOne and toMany associations
+
+`SC.Record` can have `toOne` and `toMany` associations, and the snippets are `one` and `many`
+respectively:
+
+``` javascript
+SC.Record.toOne('App.TargetClass', { isMaster: YES, inverse: 'inverse' })  // one
+SC.Record.toMany('App.TargetClass', { isMaster: YES, inverse: 'inverse' }) // many
+```
+
+When the cursor/tab stop is over the `Y`, if you type `N` then the snippet changes to a 
+non-master association:
+
+``` javascript
+SC.Record.toOne('App.TargetClass', { isMaster: NO })  // one, TAB, N
+```
+
+
 ## Related bundles
 
 See also the following bundles:
