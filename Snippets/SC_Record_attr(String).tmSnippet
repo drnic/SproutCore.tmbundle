@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>SC.Record.attr(String${12:, { defaultValue: ${13:'Unspecified'}${14:, isRequired: YES} \}})${20:,}</string>
+	<key>name</key>
+	<string>SC.Record.attr(String)</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
+	<key>tabTrigger</key>
+	<string>atts</string>
+	<key>uuid</key>
+	<string>ABBA6B18-4555-4BED-AED2-868F324140ED</string>
+</dict>
+</plist>
