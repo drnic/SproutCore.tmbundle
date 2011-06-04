@@ -9,6 +9,38 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>begin</key>
+			<string>(\bSC\.(?:Application|ArrayController|Checkbox|DateTime|Object|Record|Store|TemplatePane|TextField))</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>support.class.sproutcore</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\b</string>
+			<key>name</key>
+			<string>meta.class.sproutcore</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(\bSC\.(?:ready))</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>support.function.sproutcore</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\b</string>
+			<key>name</key>
+			<string>meta.function.sproutcore</string>
+		</dict>
+		<dict>
 			<key>include</key>
 			<string>source.js</string>
 		</dict>
