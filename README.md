@@ -65,6 +65,16 @@ propertyName: function() {
 }.property('@each.propertyName', 'secondary').cacheable()
 ```
 
+### get/set
+
+`.get` and `.set` quickly expand to:
+
+``` javascript
+.get('property');
+.set('property', value);
+```
+
+
 Various parts are quickly deletable (`@each`, `'secondary'`, `cacheable()`).
 
 
