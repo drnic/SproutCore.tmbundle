@@ -15,6 +15,7 @@
 			<string>endPropertyChanges</string>
 			<string>everyProperty</string>
 			<string>extend</string>
+			<string>forEach</string>
 			<string>filterProperty</string>
 			<string>get</string>
 			<string>getPath</string>
@@ -22,7 +23,9 @@
 			<string>invokeLater</string>
 			<string>observes</string>
 			<string>property</string>
+			<string>pushObject</string>
 			<string>set</string>
+			<string>setEach</string>
 			<string>value</string>
 			<string>Binding</string>
 			<string>SC.ArrayController</string>
