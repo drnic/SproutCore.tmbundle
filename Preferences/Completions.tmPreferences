@@ -13,6 +13,7 @@
 			<string>beginPropertyChanges</string>
 			<string>cacheable</string>
 			<string>content</string>
+			<string>createRecord</string>
 			<string>endPropertyChanges</string>
 			<string>everyProperty</string>
 			<string>extend</string>
