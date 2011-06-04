@@ -41,6 +41,18 @@ non-master association:
 SC.Record.toOne('App.TargetClass', { isMaster: NO })  // one, TAB, N
 ```
 
+## SC.ArrayController
+
+`arrc` generates an `SC.ArrayController` instance:
+
+``` javascript
+SC.ArrayController.create({
+  // Initialize the array controller with an empty array.
+  content: []
+});
+```
+
+
 
 ## Related bundles
 
