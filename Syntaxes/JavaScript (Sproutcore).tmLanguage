@@ -10,7 +10,7 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>(\bSC\.(?:Application|ArrayController|Checkbox|DateTime|Object|Record|Store|TemplatePane|TemplateView|TextField))</string>
+			<string>(\bSC\.(?:Application|ArrayController|Checkbox|DateTime|Object|Record|Store|TemplateCollectionView|TemplatePane|TemplateView|TextField))</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
