@@ -65,6 +65,8 @@ propertyName: function() {
 }.property('@each.propertyName', 'secondary').cacheable()
 ```
 
+Various parts are quickly deletable (`@each`, `'secondary'`, `cacheable()`).
+
 ### get/set
 
 `.get` and `.set` quickly expand to:
@@ -74,8 +76,6 @@ propertyName: function() {
 .set('property', value);
 ```
 
-
-Various parts are quickly deletable (`@each`, `'secondary'`, `cacheable()`).
 
 
 ## SC.ArrayController
