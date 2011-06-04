@@ -41,6 +41,12 @@
 			<string>meta.function.sproutcore</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>\b(NO|YES)\b</string>
+			<key>name</key>
+			<string>constant.language.js.sproutcore</string>
+		</dict>
+		<dict>
 			<key>include</key>
 			<string>source.js</string>
 		</dict>
