@@ -1,5 +1,7 @@
 # TextMate bundle for SproutCore
 
+This TextMate bundle is for SproutCore 1.6/2.0 and focuses on the new web (TemplateView) focus of SproutCore, rather than its historical desktop focus. For a desktop focused bundle, see [kenvunz/sproutcore-tmbundle](https://github.com/kenvunz/sproutcore-tmbundle).
+
 ## Theme
 
 Select the `JavaScript (SproutCore)` grammar and your code will look nice:
