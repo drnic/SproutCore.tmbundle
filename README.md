@@ -1,5 +1,11 @@
 # TextMate bundle for SproutCore
 
+## Completions
+
+Lots and lots of common SproutCore functions and classes/types are added to the Completion list.
+Press Escape to rotate through them. For example, type `SC` and press Escape over and over to
+see list of common classes/types.
+
 ## SC.Record
 
 `rec` creates an SC.Record model:
