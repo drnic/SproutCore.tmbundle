@@ -1,5 +1,14 @@
 # TextMate bundle for SproutCore
 
+## SC.Record
+
+`rec` creates an SC.Record model:
+
+``` javascript
+SC.Record.extend({
+  example: SC.Record.attr(String, { defaultValue: 'Unspecified', isRequired: YES })
+});
+```
 
 ## Related bundles
 
