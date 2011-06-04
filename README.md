@@ -1,6 +1,19 @@
 # TextMate bundle for SproutCore
 
 
+## Related bundles
+
+See also the following bundles:
+
+* [Handlebars](https://github.com/drnic/Handlebars.tmbundle)
+* [JavaScript](https://github.com/subtleGradient/javascript.tmbundle)
+* [JavaScript Tools](https://github.com/subtleGradient/javascript-tools.tmbundle)
+
+## Build Tools support
+
+* Added new command to launch Terminal and run the Development Server (trigger: ⇧⌘R)
+* Added new commands to generate Sproutcore stuffs like: app, framework, language, theme, model, view, controller using sc-gen (trigger: ⌥⇧⌘N)
+
 ## Installation
 
 To install via Git:
@@ -13,16 +26,3 @@ To install via Git:
 Source can be viewed or forked via GitHub: [http://github.com/drnic/sproutcore-tmbundle/tree/master](http://github.com/drnic/sproutcore-tmbundle/tree/master)
 
 
-## Related bundles
-
-See also the following bundles:
-
-* [Handlebars](https://github.com/drnic/Handlebars.tmbundle)
-* [JavaScript](https://github.com/subtleGradient/javascript.tmbundle)
-* [JavaScript Tools](https://github.com/subtleGradient/javascript-tools.tmbundle)
-
-## Build Tools support
-
-* Added new command to launch Terminal and run the Development Server (trigger: ⇧⌘R)
-* Added new template to geneate Sproutcore project, using sc-init
-* Added new commands to generate Sproutcore stuffs like: app, framework, language, theme, model, view, controller using sc-gen (trigger: ⌥⇧⌘N)
