@@ -41,6 +41,7 @@
 			<string>SC.Record</string>
 			<string>SC.Store</string>
 			<string>SC.TemplatePane</string>
+			<string>SC.TemplateView</string>
 			<string>SC.TextField</string>
 		</array>
 	</dict>
