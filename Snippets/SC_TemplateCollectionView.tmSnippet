@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${2:App}.${4:Item}CollectionView = SC.TemplateCollectionView.extend({
+  contentBinding: '$2.${6:${5:${4/./\l$0/}}ListController}',
+  tagName: '${15:ul}',
+  classNames: ['${20:collection}'],
+  
+  itemView: SC.TemplateView.extend({
+    tagName: '${16:li}',
+    classNames: ['${21:item}']
+  })
+});</string>
+	<key>name</key>
+	<string>SC.TemplateCollectionView</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
+	<key>tabTrigger</key>
+	<string>temcv</string>
+	<key>uuid</key>
+	<string>2FBB3CF7-5C91-4BFC-BA35-18BFDEC40C86</string>
+</dict>
+</plist>
