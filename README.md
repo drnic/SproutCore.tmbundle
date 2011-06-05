@@ -90,7 +90,9 @@ forEach(function(item) {
 });
 ```
 
-## SC.ArrayController
+## Controller subclasses
+
+### SC.ArrayController
 
 `arr` generates an `SC.ArrayController` instance:
 
