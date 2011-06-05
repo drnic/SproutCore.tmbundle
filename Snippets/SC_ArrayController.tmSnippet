@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.ArrayController.create({
+	<string>${1:App}.${3:items}Controller = SC.ArrayController.create({
 	// Initialize the array controller with an empty array.
 	content: []$0
 });

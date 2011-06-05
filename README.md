@@ -95,10 +95,11 @@ forEach(function(item) {
 `arr` generates an `SC.ArrayController` instance:
 
 ``` javascript
-SC.ArrayController.create({
+App.itemsController = SC.ArrayController.create({
   // Initialize the array controller with an empty array.
   content: []
 });
+
 ```
 
 ## View subclasses
