@@ -92,7 +92,7 @@ forEach(function(item) {
 
 ## SC.ArrayController
 
-`arrc` generates an `SC.ArrayController` instance:
+`arr` generates an `SC.ArrayController` instance:
 
 ``` javascript
 SC.ArrayController.create({
@@ -101,7 +101,40 @@ SC.ArrayController.create({
 });
 ```
 
+## View subclasses
 
+### SC.TextField
+
+`tf` generates a `SC.TextField` subclass:
+
+``` javascript
+App.ItemView = SC.TextField.extend({
+  insertNewline: function() {
+    var value = this.get('value');
+ 
+    if (value) {
+      
+    }
+  }
+});
+```
+
+### SC.TemplateCollectionView
+
+`coll` generates a `SC.TemplateCollectionView` subclass:
+
+``` javascript
+App.ItemCollectionView = SC.TemplateCollectionView.extend({
+  contentBinding: 'App.itemListController',
+  tagName: 'ul',
+  classNames: ['collection'],
+  
+  itemView: SC.TemplateView.extend({
+    tagName: 'li',
+    classNames: ['item']
+  })
+});
+```
 
 ## Related bundles
 
