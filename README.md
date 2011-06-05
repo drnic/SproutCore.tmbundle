@@ -82,11 +82,31 @@ Various parts are quickly deletable (`@each`, `'secondary'`, `cacheable()`).
 
 ### forEach
 
-`fore` expands to the `forEach` helper iterating over an `item` object:
+`.fore` expands to the `forEach` helper iterating over an `item` object:
 
 ``` javascript
-forEach(function(item) {
+.forEach(function(item, index, self) {
   item
+});
+```
+
+### map
+
+`.map` expands to the `map` helper iterating over an `item` object:
+
+``` javascript
+.map(function(item, index, self) {
+  return item;
+});
+```
+
+### filter
+
+`.fil` expands to the `filter` helper iterating over an `item` object:
+
+``` javascript
+.filter(function(item, index, self) {
+  return item;
 });
 ```
 

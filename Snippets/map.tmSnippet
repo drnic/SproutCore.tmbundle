@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>.map(function(${1:item}, index, self) {
+	<string>.map(function(${1:item}${2:, index${5:, self}}) {
   return $1$0;
 });</string>
 	<key>name</key>

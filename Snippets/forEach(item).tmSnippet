@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>.forEach(function(${1:item}) {
+	<string>.forEach(function(${1:item}${2:, index${5:, self}}) {
 	$1$0
 });</string>
 	<key>name</key>
