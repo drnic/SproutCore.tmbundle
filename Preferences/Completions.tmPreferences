@@ -45,6 +45,7 @@
 			<string>SC.TemplatePane</string>
 			<string>SC.TemplateView</string>
 			<string>SC.TextField</string>
+			<string>SC.TreeController</string>
 		</array>
 	</dict>
 	<key>uuid</key>
