@@ -13,7 +13,7 @@
 	<key>scope</key>
 	<string>source.js.sproutcore</string>
 	<key>tabTrigger</key>
-	<string>arrc</string>
+	<string>arr</string>
 	<key>uuid</key>
 	<string>7EBE9B4F-27BE-4588-920F-A579A7E086C5</string>
 </dict>
