@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${2:App}.${4:Item}View = SC.TextField.extend({
+  insertNewline: function() {
+    var value = this.get('value');
+ 
+    if (value) {
+      $0
+    }
+  }
+});
+</string>
+	<key>name</key>
+	<string>SC.TextField</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
+	<key>tabTrigger</key>
+	<string>tf</string>
+	<key>uuid</key>
+	<string>ACBAFD3C-E8C5-4B36-932E-85F5EEAB90DB</string>
+</dict>
+</plist>
