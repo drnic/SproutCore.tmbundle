@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SC.Record.toMany('${11:App.TargetClass}', { isMaster: ${12:Y}${12/(Y)|(N)|.*/(?1:ES, inverse\: 'inverse')(?2:O)/} })</string>
+	<string>${1:targets}: SC.Record.toMany('${10:App.${11:${1/[[:alpha:]]+|(_)/(?1::\u$0)/g}}}', { isMaster: ${12:Y}${12/(Y)|(N)|.*/(?1:ES, inverse\: 'inverse')(?2:O)/} })</string>
 	<key>name</key>
 	<string>SC.Record.toMany</string>
 	<key>scope</key>
