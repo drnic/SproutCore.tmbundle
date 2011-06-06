@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>${1:propertyName}: function() {
 	$0
-}.property('${2:@each.}${3:$1}'${4:, '${5:secondary}'})${7:.cacheable()}${10:,}
+}.property('${2:${3:@each.}${4:$1}}'${5:, '${6:secondary}'})${7:.cacheable()}${10:,}
 </string>
 	<key>name</key>
 	<string>SC.Record - Property</string>
