@@ -6,11 +6,11 @@
 	<string>${2:App}.${4:Item}CollectionView = SC.TemplateCollectionView.extend({
   contentBinding: '$2.${6:${5:${4/./\l$0/}}ListController}',
   tagName: '${15:ul}',
-  classNames: ['${20:collection}'],
+  classNames: '${20:collection}'.w(),
   
   itemView: SC.TemplateView.extend({
     tagName: '${16:li}',
-    classNames: ['${21:item}']
+    classNames: '${21:item}'.w()
   })
 });</string>
 	<key>name</key>
