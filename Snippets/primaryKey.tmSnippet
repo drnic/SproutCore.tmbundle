@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>primaryKey: "${1:id}"${2:,}</string>
+	<key>name</key>
+	<string>primaryKey</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
+	<key>tabTrigger</key>
+	<string>pk</string>
+	<key>uuid</key>
+	<string>CA2FD985-4FD6-43A4-A173-2F41D2719063</string>
+</dict>
+</plist>
