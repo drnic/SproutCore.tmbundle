@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>SC.Request.${1:get}Url(${2:'${3:/users/signed_in}'}).json()
+      .notify(this, ${5:'${6:handleUsersSignedIn}'}${10:, ${11:callback}}).send(${20:{${21:id: 123}\}});</string>
+	<key>name</key>
+	<string>SC.Request.getUrl</string>
+	<key>scope</key>
+	<string>source.js.sproutcore</string>
+	<key>tabTrigger</key>
+	<string>ajax</string>
+	<key>uuid</key>
+	<string>5D817412-5783-4DB4-9835-F0FB874695BB</string>
+</dict>
+</plist>
