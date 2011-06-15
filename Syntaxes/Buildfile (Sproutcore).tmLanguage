@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>Buildfile</string>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^~B</string>
+	<key>name</key>
+	<string>Buildfile (Sproutcore)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.ruby</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.ruby.buildfile</string>
+	<key>uuid</key>
+	<string>E2EB0A90-C845-43E4-9989-31AEB3F3A5AB</string>
+</dict>
+</plist>
