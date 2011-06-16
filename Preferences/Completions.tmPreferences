@@ -39,6 +39,7 @@
 			<string>SC.Checkbox</string>
 			<string>SC.DateTime</string>
 			<string>SC.Object</string>
+			<string>SC.ObjectController</string>
 			<string>SC.Record</string>
 			<string>SC.Store</string>
 			<string>SC.TemplateCollectionView</string>

@@ -26,7 +26,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\bSC\.(?:Application|ArrayController|Checkbox|DateTime|Object|Record|Store|TemplateCollectionView|TemplatePane|TemplateView|TextField|TreeController)\b</string>
+			<string>\bSC\.(?:Application|ArrayController|Checkbox|DateTime|Object|ObjectController|Record|Store|TemplateCollectionView|TemplatePane|TemplateView|TextField|TreeController)\b</string>
 			<key>name</key>
 			<string>support.class.sproutcore</string>
 		</dict>
